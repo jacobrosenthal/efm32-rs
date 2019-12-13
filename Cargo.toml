@@ -23,3 +23,7 @@ rt = ["cortex-m-rt/device"]
 
 [workspace]
 members = ["tools"]
+
+# https://github.com/BurntSushi/ripgrep/issues/1423
+[replace]
+"ignore:0.4.10" = { git = "https://github.com/ctaggart/ripgrep", package = "ignore", rev = "8f961df" }
