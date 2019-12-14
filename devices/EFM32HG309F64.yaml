@@ -243,12 +243,12 @@ _add:
         size: 32
         fields:
           FLASH:
-            description: SRAM size in kilobytes
+            description: Flash size in kilobytes
             bitOffset: 0
             bitWidth: 16
             access: read-only
           SRAM:
-            description: Flash size in kilobytes
+            description: SRAM size in kilobytes
             bitOffset: 16
             bitWidth: 16
             access: read-only
